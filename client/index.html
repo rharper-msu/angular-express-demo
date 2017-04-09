@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <base href="/">
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="public/css/style.css" rel="stylesheet">
+    <script src="public/js/angular.min.js"></script>
+    <script src="public/js/angular-route.min.js"></script>    
+    <script src="index.js"></script>
+    <script src="layout/layout.js"></script>
+    <script src="about/about.js"></script>
+    <script src="home/home.js"></script>
+    <script src="login/login.js"></script>
+</head>
+
+<body ng-app="demo">
+    <div ng-include="'layout/header.html'"></div>
+    
+    <div class="view"  ng-view></div>
+
+    <div ng-include="'layout/footer.html'"></div>
+</body>
+
+</html>

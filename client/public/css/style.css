@@ -1,0 +1,20 @@
+body {
+    background-color: lightgrey;
+    margin: 10px;
+}
+
+.footer {
+    margin-top: 10px;
+}
+
+.footer {
+    background-color: lightgreen;
+    margin-top: 10px;
+}
+
+.view{
+    background-color:  cadetblue;
+    margin: 20px;
+    padding: 50px;
+}
+

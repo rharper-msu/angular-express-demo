@@ -1,0 +1,12 @@
+<div class="header">
+    <div ng-controller="layout">
+        <div>
+            <table>
+                <thead><img ng-src="{{imageSrc}}" title="Batman" width="100px;"></thead>
+                <tr ng-repeat="link in links">
+                    <td><a ng-href="{{link.href}}">{{link.value}}</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
