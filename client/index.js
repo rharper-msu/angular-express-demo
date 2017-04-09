@@ -18,6 +18,10 @@ var module = angular.module('demo', ['ngRoute']);
                 templateUrl: "login/login.html",
                 controller: "login"
             })
+            .when("/registration", {
+                templateUrl: "registration/registration.html",
+                controller: "registration"
+            })
             .otherwise({
                 templateUrl: "errors/404.html",
                 controller: 'home'
